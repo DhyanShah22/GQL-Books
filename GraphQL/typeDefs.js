@@ -6,7 +6,7 @@ type Book{
     Description: String
     AuthorName: String
     Review: String 
-    Rating: Number
+    Rating: Int
 }
 
 input BookInput {
@@ -14,7 +14,7 @@ input BookInput {
     Description: String
     AuthorName: String
     Review: String 
-    Rating: Number
+    Rating: Int
 }
 type Query {
     book(ID: ID!): Book!

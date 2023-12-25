@@ -11,7 +11,7 @@ module.exports = {
     },
     Mutation: {
         async createBook(_, {bookInput: {BookName, Description, AuthorName, Review, Rating}}) {
-            const createdRecipe = new Recipe ({
+            const createdBook = new Book ({
                 BookName: BookName,
                 Description: Description,
                 AuthorName: AuthorName,
